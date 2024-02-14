@@ -1,0 +1,19 @@
+// var PI = 3.14;
+// PI = 42; 
+// stop me from doing this!
+
+let PI = 3.14;
+PI = 42;
+
+Quiz
+- What is the difference between ***var*** and ***let***?
+'var' has global scope, can be redeclared, and hoists; 'let' has block scope, cannot be redeclared, and does not hoist.
+
+- What is the difference between **var** and ***const***?
+'var' has global scope, can be redeclared, can be reassigned, and hoists; 'const' has block scope, cannot be redeclared, cannot be reassigned, and does not hoist.
+
+- What is the difference between **let** and **const**?
+'let' can be reassigned; 'const' cannot.
+
+- What is hoisting?
+When a variable is declared with 'var', it is set to undefined at the beginning.
